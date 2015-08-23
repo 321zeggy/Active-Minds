@@ -1,0 +1,101 @@
+body {background:#C0C0C0; font-family: "Arial";}
+
+h1, h2, h3 {font-family:"Arial"}
+a {color: #000000;}
+
+#navbar {height: 33px; margin-left: auto; margin-right: auto; width:796px;
+ padding: 3px;}
+
+#navbar ul {margin: 0px; padding: 0px; list-style: none;}
+
+#navbar a {display: block; padding-bottom: 0px; padding-top: 10px; height:24px; 
+text-decoration: none;  margin: 0px; margin-right: 5px; color: #000000; 
+font-family: "Arial"; font-size: 12px; text-align: center; border: 2px solid black;
+border-bottom:none; border-top-right-radius:10px; border-top-left-radius:10px;}
+
+#navbar li {float: left; height: 40px; width: 99px;}
+
+#navbar li ul {display: none;}
+
+#navbar a.current {background:#95D2F6; height:26px}
+
+#navbar a:link, a:visited {background:#0099FF; }
+
+#navbar a.special {padding-bottom: 0px; padding-top: 3px; height:31px; }
+
+#navbar a.special:link, a.special:visited {background:#FF5C5C; }
+
+#navbar a.special:hover, a.special:active {background: #FF5C5C; color: white;}
+
+#navbar a.special.current {background:#95D2F6; height:33px}
+
+#navbar a:hover, a:active {background: #95D2F6; color: white;}
+
+
+
+div.main {margin-left: auto; margin-right:auto; 
+padding:0px; width:796px; background: #95D2F6;
+border: 2px solid black; height: auto;}
+
+div.box {margin-left: auto; margin-right: auto; width:796px;}
+
+div.banner, div.box{
+box-shadow: 7px 7px 8px #818181;
+-webkit-box-shadow: 7px 7px 8px #818181;
+-moz-box-shadow: 7px 7px 8px #818181;
+filter: progid:DXImageTransform.Microsoft.dropShadow(color=#818181, offX=7, offY=7, positive=true);
+}
+
+div.content {height: auto; width: 535px; min-height: 750px; margin-left: 10px; margin-right: 100px;
+padding: 10px; font-size: 14px; position: left}
+
+div.calendar { width: 180px; height: 450px; float: right; margin-left: 10px; 
+margin-right: 10px; padding-left: 15px; padding-right: 15px; position:relative}
+
+
+div.banner {margin-left: auto; margin-right: auto; width:796px; 
+padding:0px; height: auto;}
+
+#footer {padding:10px; position: bottom; 
+border-top:2px solid black; font-size: 12px; font-weight:bold; }
+
+
+/*CSS for roll over thumbnails*/
+.thumbnail{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightblue;
+padding: 5px;
+left: -1000px;
+border: 1px solid black;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top: -150px;
+left: 120px; /*position where enlarged image should offset horizontally */
+}
+
+
+/*CSS for required form fields*/
+
+input.invalid { background-color: #FF9; border: 2px red insert; }
+label.invalid { color: #F00; font-weight:bold; }
+
