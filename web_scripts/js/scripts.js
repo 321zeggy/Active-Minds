@@ -1,7 +1,8 @@
 jQuery(document).ready(function($) {
 
     var exec = {
-        "ariella": ["Ariella Yosafat", "President", "9", "2016", "Simmons", "I am a hardcore Cincinnati Reds fan! (Let's go Redlegs!!!)"],
+        "justine": ["Justine McPartlan", "President", "7", "2017", "Maseeh Hall", "As I am writing this, I am also packing for my first-ever trip out of the United States!"],
+        "ariella": ["Ariella Yosafat", "Ambassador", "9", "2016", "Simmons", "I am a hardcore Cincinnati Reds fan! (Let's go Redlegs!!!)"],
         "caitlin": ["Caitlin Tan", "Advisory Committee", "9", "2016", "MacGregor", "I love being outdoors and going on long walks, especially when I don't have a destination in mind."],
         //               "elise": ["Elise Ruan", "Historian", "9", "2014", "Simmons", "I studied abroad in London for a year."],
         //               "emad": ["Emad Taliep", "Advisory Committee Chair ", "9", "2014", "Off Campus", " I am a blogger and I love slam poetry!"],
