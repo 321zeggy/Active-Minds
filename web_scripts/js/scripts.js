@@ -4,16 +4,8 @@ jQuery(document).ready(function($) {
         "justine": ["Justine McPartlan", "President", "Biology", "2017", "Maseeh Hall", "As I am writing this, I am also packing for my first-ever trip out of the United States!"],
         "kathy": ["Kathy Dieppa", "Vice President", "Civil & Environmental Engineering", "2017", "Off Campus", "I have a miniature Dachshund named Canela (spanish for &quot;Cinnamon&quot;) that I am obsessed with and take with me everywhere I can."],
         "ariella": ["Ariella Yosafat", "Ambassador", "Brain & Cognitive Sciences and Biology", "2016", "Simmons", "I love baseball!"],
-        //"caitlin": ["Caitlin Tan", "Advisory Committee", "9", "2016", "MacGregor", "I love being outdoors and going on long walks, especially when I don't have a destination in mind."],
-        //               "elise": ["Elise Ruan", "Historian", "9", "2014", "Simmons", "I studied abroad in London for a year."],
-        //               "emad": ["Emad Taliep", "Advisory Committee Chair ", "9", "2014", "Off Campus", " I am a blogger and I love slam poetry!"],
-        "lorraine": ["Lorraine Wong", "External Correspondence", "6/9", "2017", "East Campus", "I love snowboarding :]"],
-        //               "matt": ["Matthew Hodel", "Documentarian", "8", "2016", "MacGregor", "I play disc golf; it's like golf, but with frisbees instead!"],
-        //               "rex": ["Rex Lam", "Webmaster", "14,18", "2014", "Pi Lambda Phi", "I am a twin."],
-        //               "shannen": ["Shannen Kizl", "Publicity Chair", "2", "2015", "Simmons", "I went to Bolivia this summer!"],
-        //               "snaggs": ["Sharon Snaggs Gendron", "Faculty Advisor", "", "", "", "I grew up in the Caribbean."],
-        //               "victoria": ["Victoria Park", "Advisory Committee", "7", "2017", "Simmons", "I love Pooh Bear."],
-        "zoe": ["Zo&euml; Redstone-Rothstein", "Webmaster", "6", "2017", "Burton Conner", "I love reading children's books!"]
+        "lorraine": ["Lorraine Wong", "Special Projects", "Women's and Gender Studies & Brain and Cognitive Sciences", "2017", "East Campus", "I love snowboarding :]"],
+        "zoe": ["Zo&euml; Redstone-Rothstein", "Webmaster", "Computer Science", "2017", "Burton Conner", "I love reading children's books!"]
     };
 
     function fill_exec(member) {
