@@ -290,6 +290,10 @@ light blue: 85a6c8;
 	font-weight: 400;
 }
 
+#slide6 tr:hover a {
+	font-weight: 900;
+}
+
 #mit_resources, #outside_resources {
 	margin: 30px auto;
 }
